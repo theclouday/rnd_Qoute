@@ -1,0 +1,10 @@
+.createQuote {
+    display: inline-block;
+    background-color: #f9b2b2;
+    border: 1px solid black;
+}
+
+.quoteOutput {
+    display: block;
+     
+}
