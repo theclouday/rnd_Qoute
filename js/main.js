@@ -4,14 +4,14 @@ const someWords = ['Пока не упал духом, любые другие �
 
 function makeQuote() {
     let out ='';
-    const quoteLenght = Math.floor(Math.random() * 24);
+    const quoteLenght = Math.floor(Math.random() * 12 + 1);
     console.log(quoteLenght);
-    // const quoteOutput = document.getElementById("quoteOutput");
+    const quoteOutput = document.getElementById("quoteOutput");
 
     for (let i = 0; i <quoteLenght; i++) {
         out = someWords.join().split(" ");
         const quoteOutputE = out[Math.floor(Math.random() * out.length)];
-        // quoteOutput.innerHTML = `<h2>${quoteOutputE}</h2>`;
+        quoteOutput.innerHTML = `<h2>${quoteOutputE}</h2>`;
     }
 
 }
