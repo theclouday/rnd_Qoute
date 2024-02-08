@@ -16,7 +16,7 @@ function makeQuote() {
         out = someWords.join().split(" ");
         const rows = out[Math.floor(Math.random() * out.length)] + " ";
         quoteOutputE += rows;
-        quoteOutput.innerHTML = `<h2>${quoteOutputE}</h2>`;
+        quoteOutput.innerHTML = `<h2>Ваша цитата - ${quoteOutputE}</h2>`;
     }
 
 }
