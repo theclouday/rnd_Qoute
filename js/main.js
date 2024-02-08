@@ -9,7 +9,7 @@ const butMain = document.querySelector('.buttonCreate');
 function makeQuote() {
     let outNouns ='';
     let outVerbs ='';
-    const quoteLenght = Math.floor(Math.random() * 16 + 1); // Здесь я строго задаю длинну цитаты
+    const quoteLenght = Math.floor(Math.random() * 16 + 1);
 
     const quoteOutput = document.getElementById("quoteOutput");
     let quoteOutputE = '';
@@ -26,4 +26,3 @@ function makeQuote() {
 
 
 butMain.addEventListener('click', makeQuote)
-// makeQuote();    
