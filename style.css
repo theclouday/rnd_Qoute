@@ -1,11 +1,28 @@
-.buttonCreate {
-    display: inline-block;
-    background-color: #f9b2b2;
-    border: 1px solid black;
+body {
+    width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+button[type ="butGen"] {
+    position: relative;
+    left: 100px;
+    font-size: medium;
+    font-weight: 600;
+    background-color:rgb(255, 255, 173);
+    color: rgb(15, 0, 221);
+    border-radius: 15px;
+    width: 250px;
+    height: 55px;
+    border-color: white;
 }
 
 .outputLine {
     display: block;
-    background-color:aqua;
-     
+    font-size: small;
+    font-style: italic;
+    color:rgb(144, 50, 252);
+    background-color: azure;
+    width: fit-content;
 }
